@@ -170,12 +170,12 @@ export const AdminMovieAddSection = () => {
           </div>
 
           <div>
-            <p>Movie Photo Path:</p>
+            <p>Movie Poster Path:</p>
             <input
               name="imagePath"
               onChange={(e) => handleMovieInfo(e)}
               type="text"
-              placeholder="Enter Image path"
+              placeholder="Poster path"
             />
           </div>
 
@@ -185,16 +185,16 @@ export const AdminMovieAddSection = () => {
               name="language"
               onChange={(e) => handleMovieInfo(e)}
               type="text"
-              placeholder="Enter Movie Language"
+              placeholder="Movie Language"
             />
           </div>
 
           <div>
-            <p>Synopsis:</p>
+            <p>Description:</p>
             <input
               name="description"
               onChange={(e) => handleMovieInfo(e)}
-              placeholder="Enter Movie's Brief Description"
+              placeholder="Brief Description"
             />
           </div>
 
@@ -214,7 +214,7 @@ export const AdminMovieAddSection = () => {
               name="duration"
               onChange={(e) => handleMovieInfo(e)}
               type="text"
-              placeholder="Enter Movie Duration"
+              placeholder="Movie Duration in hr min format"
             />
           </div>
 
@@ -224,7 +224,7 @@ export const AdminMovieAddSection = () => {
               name="cast"
               onChange={(e) => handleMovieInfo(e)}
               type="text"
-              placeholder="Enter Movie's Main Actor/Actress Name"
+              placeholder="Movie cast"
             />
           </div>
 
@@ -234,7 +234,7 @@ export const AdminMovieAddSection = () => {
               name="relDate"
               onChange={(e) => handleMovieInfo(e)}
               type="text"
-              placeholder="(yyyy-mm-dd) format"
+              placeholder="YYYY-MM-DD"
             />
           </div>
 
@@ -244,7 +244,7 @@ export const AdminMovieAddSection = () => {
               name="genres"
               onChange={(e) => handleMovieInfo(e)}
               type="text"
-              placeholder="Enter separate Genres with comma"
+              placeholder="Genres separated with comma"
             />
           </div>
 
@@ -254,7 +254,7 @@ export const AdminMovieAddSection = () => {
               name="directors"
               onChange={(e) => handleMovieInfo(e)}
               type="text"
-              placeholder="Enter separate Directors with comma"
+              placeholder="Directors separated with comma"
             />
           </div>
 

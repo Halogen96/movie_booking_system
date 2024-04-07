@@ -110,7 +110,7 @@ export const CustomerInfoSection = () => {
 
           <div className="purchase-item-category">
             <p>Price:</p>
-            <p>BDT {cusTicket.ticket_price}TK</p>
+            <p>INR {cusTicket.ticket_price}</p>
           </div>
 
           <div className="purchase-item-category">

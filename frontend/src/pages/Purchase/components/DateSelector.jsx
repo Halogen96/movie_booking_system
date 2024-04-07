@@ -36,7 +36,7 @@ export const DateSelector = () => {
 
   const checkedColor = (val) => {
     return {
-      backgroundColor: val === userDate ? "" : "",
+      backgroundColor: val === userDate ? "var(--logo)" : "",
       color: val === userDate ? "#e6e6e8" : "",
     };
   };

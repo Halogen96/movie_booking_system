@@ -58,10 +58,11 @@ export const AdminShowtimesAddSection = ({
 
   for (let i = 0; i < 4; i++) {
     let curDateStr = addDays(lastShowDate, i + 1);
+    //console.log(curDateStr);
 
     const formattedDate = new Date(curDateStr).toLocaleString("en-US", {
-      month: "short",
       day: "numeric",
+      month: "short",
       year: "numeric",
     });
 
